@@ -1,0 +1,31 @@
+.circle {
+  height: 900px;
+  width: 1800px;
+  border-radius: 50%;
+  border: 1px solid black;
+  animation: lightbluePurple 10s infinite;
+}
+
+@keyframes lightbluePurple {
+  0% {
+    background-color: lightblue;
+  }
+  17% {  
+    background-color: purple;
+  }
+  34% {
+    background-color: lightblue;    
+  }
+  51% {
+    background-color: purple;
+  }
+  68% {
+    background-color: lightblue;
+  }
+  85% {
+    background-color: purple;    
+  }
+  100% {
+    background-color: lightblue; 
+  }
+}
